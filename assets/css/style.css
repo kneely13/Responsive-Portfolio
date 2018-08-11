@@ -253,6 +253,10 @@ input[type=submit] {
     width: 100%;
     margin-bottom:20px;
   }
+
+  #bio-image{
+  width:100%;
+  }
 }
 
 @media only screen and (max-width:768px) {
@@ -282,6 +286,9 @@ input[type=submit] {
   .auth-image {
     width:50%;
   }
+  #bio-image{
+    width:100%;
+    }
 }
 
 @media only screen and (max-width: 640px){
@@ -309,4 +316,7 @@ padding:0;
     padding-left:0;
     margin-left:0;
   }
+  #bio-image{
+    width:100%;
+    }
 }
