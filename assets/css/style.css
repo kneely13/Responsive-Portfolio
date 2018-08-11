@@ -126,6 +126,7 @@ footer {
   background: #1D2F3E;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  height: 100%;
 }
 
 h3, h2 {
@@ -258,6 +259,9 @@ input[type=submit] {
   width:100%;
   height:auto;
   }
+  footer{
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width:768px) {
@@ -292,6 +296,10 @@ input[type=submit] {
     height:auto;
     
     }
+
+    footer{
+      height: 100%;
+    }
 }
 
 @media only screen and (max-width: 640px){
@@ -323,4 +331,8 @@ padding:0;
     width:100%;
     height:auto;
     }
+
+  footer {
+    height: 100%;
+  }
 }
